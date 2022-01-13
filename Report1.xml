@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="8" time="0.301" timestamp="2022-01-04T15:39:20.208542" hostname="Dip-Ghosh"><testcase classname="test_First" name="test_1" time="0.002" /><testcase classname="test_First" name="test_2" time="0.001" /><testcase classname="test_First" name="test_3" time="0.002"><failure message="AssertionError: Title does not match&#10;assert 'jenkins' is 'Jenkins is ci server'">def test_3():
+        name="jenkins"
+        title="Jenkins is ci server"
+&gt;       assert name is title , "Title does not match"
+E       AssertionError: Title does not match
+E       assert 'jenkins' is 'Jenkins is ci server'
+
+test_First.py:16: AssertionError</failure></testcase><testcase classname="test_second" name="test_login" time="0.002" /><testcase classname="test_second" name="test_checkout" time="0.002" /><testcase classname="test_second" name="test_logout" time="0.002" /><testcase classname="test_there" name="test_responsecode" time="0.002" /><testcase classname="test_unittest.MyTestCase" name="test_something" time="0.002"><failure message="AssertionError: True != False">self = &lt;test_unittest.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True , False)
+E       AssertionError: True != False
+
+test_unittest.py:7: AssertionError</failure></testcase></testsuite></testsuites>
